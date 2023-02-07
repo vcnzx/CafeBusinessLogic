@@ -3,7 +3,12 @@ import java.util.ArrayList;
 public class CafeUtil {
 
     public int getStreakGoal(){
-        int streakGoal = 10;
+        int streakGoal = 0;
+
+        for(int i=1; i <= 10; i++){
+            streakGoal += i;
+        }
+
         return streakGoal;
     }
 
